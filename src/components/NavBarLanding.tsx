@@ -4,13 +4,15 @@ export const NavBarLanding = () => {
   return (
     <div className="container mx-auto">
       <nav>
-        <ul className="flex justify-between items-center py-3">
-          <li className="text-white">Home</li>
-          <li className="text-white">Adote um Cão</li>
-          <li className="text-white">Adote um Gato</li>
-          <li className="text-white">Processo de Adoção</li>
-          <li className="text-white">Sobre Nós</li>
-          <li className="text-white">Contato</li>
+        <ul className="xl:flex justify-center gap-20 items-center py-3 hidden ">
+          <li className="text-white font-semibold text-lg">Home</li>
+          <li className="text-white font-semibold text-lg">Adote um Cão</li>
+          <li className="text-white font-semibold text-lg">Adote um Gato</li>
+          <li className="text-white font-semibold text-lg">
+            Processo de Adoção
+          </li>
+          <li className="text-white font-semibold text-lg">Sobre Nós</li>
+          <li className="text-white font-semibold text-lg">Contato</li>
         </ul>
       </nav>
     </div>
